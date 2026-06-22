@@ -129,6 +129,25 @@ table.award{
   margin-bottom: 0px;
 }
 
+// ! service custom
+table.service{
+  margin-bottom: 0px;
+  font-size: 18px;
+}
+.service td{
+  border: none;
+}
+.service tr>td{
+  padding-bottom: 10px;
+}
+.service td:nth-child(1) {
+  width: 30%;
+  white-space: nowrap;
+}
+.service td:nth-child(2) {
+  width: 70%;
+}
+
 // ! news custom
 .news-section table {
   font-size: 18px;
